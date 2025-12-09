@@ -4,7 +4,7 @@ This repository contains the supplementary material for the paper **"Parameter S
 ## Live Demo
 
 You can view the interactive dashboard here:  
-[Live Dashboard Link](<gumovskimira.streamlit.app>)
+[Live Dashboard Link](https://gumovskimira.streamlit.app)
 
 ## Running the Dashboard Locally
 
@@ -43,6 +43,6 @@ This will launch the Streamlit app in your default web browser.
 To run the dashboard locally, you'll need the Python libraries which are listed in the `requirements.txt` file and can be installed using `pip`.
 
 ## Contact
-For questions or feedback, feel free to [email me](d.borin[at]hotmail.com).
+For questions or feedback, feel free to [email me](mailto:d.borin@hotmail.com).
 
 For more information, visit the [author's homepage](https://danielborin.github.io).
