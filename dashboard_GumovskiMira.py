@@ -196,11 +196,11 @@ if selected == "Home":
     The map describes the evolution of two variables $x$ and $y$, and is defined by the following set of equations:
 
     $
-    \\displaystyle x_{n+1} = a  y_n  \\left( 1 - b  y_n^2 \\right) + y_n + G(x_n, \mu)
+    \\displaystyle x_{n+1} = a  y_n  \\left( 1 - b  y_n^2 \\right) + y_n + G(x_n, \\mu)
     $
                 
     $
-    \\displaystyle y_{n+1} = -x_n + G(x_{n+1}, \mu)
+    \\displaystyle y_{n+1} = -x_n + G(x_{n+1}, \\mu)
     $
 
     where:
@@ -210,7 +210,7 @@ if selected == "Home":
     - The function $G(x, \\mu)$ is defined as:
 
     $
-    \\displaystyle G(x, \mu) = \\mu x + \\frac{2x(1-\mu)}{1 + x^2}
+    \\displaystyle G(x, \mu) = \\mu x + \\frac{2x(1-\\mu)}{1 + x^2}
     $
 
     """)
@@ -257,4 +257,5 @@ if selected == "Parameter Space a×b":
     st.header("Parameter Space a×b")
 
     st.video("Videos/Animation_Parameter_Space_mu_GumovskiMira.mp4", format='video/mp4')
+
 
